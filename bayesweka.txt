@@ -1,0 +1,25 @@
+@relation classification
+
+@attribute age{young,middle,old}
+@attribute income{high,medium,low}
+@attribute student{no,yes}
+@attribute credit_rating{fair,good}
+@attribute buys_computer{no,yes}
+
+
+
+@data
+young	high	no	fair	no
+young	high	no	good	no
+middle	high	no	fair	yes
+old	medium	no	fair	yes
+old	low	yes	fair	yes
+old	low	yes	good	no
+middle	low	yes	good	yes
+young	medium	no	fair	no
+young	low	yes	fair	yes
+old	medium	yes	fair	yes
+young	medium	yes	good	yes
+middle	medium	no	good	yes
+middle	high	yes	fair	yes
+old	medium	no	good	no

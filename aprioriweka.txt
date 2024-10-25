@@ -1,0 +1,19 @@
+@relation apripori
+@attribute i1 {yes,?}
+@attribute i2{yes,?}
+@attribute i3{yes,?}
+@attribute i4{yes,?}
+@attribute i5{yes,?}
+@attribute class {M,O,N,K,E,Y,D,A,U,C}
+
+@data
+yes,?,yes,yes,?,M
+yes,yes,?,?,yes,O
+yes,yes,?,?,?,N
+yes,yes,yes,yes,yes,K
+yes,yes,yes,?,yes,E
+yes,yes,?,yes,?,Y
+?,yes,?,?,?,D
+?,?,A,?,?,A
+?,?,?,U,?,U
+?,?,?,yes,yes

@@ -1,0 +1,10 @@
+@relation kmean2d
+
+@attribute weight_index numeric
+@attribute ph numeric
+
+@data
+1,1
+2,1
+4,3
+5,4
